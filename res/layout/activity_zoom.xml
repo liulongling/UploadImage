@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.lll.app.view.HackyViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+   </com.lll.app.view.HackyViewPager>
+
+    <RelativeLayout
+        android:id="@+id/rl_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            style="@style/headerLeftStyle"
+            android:src="@drawable/btn_back_g" />
+
+        <TextView
+            android:id="@+id/tv_pos"
+            style="@style/app_font"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_back"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            style="@style/headerRightButtonStyle"
+            android:src="@drawable/btn_deleted_g" />
+
+        <LinearLayout
+            android:id="@+id/ll_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_upload"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/app_font_white"
+                android:text="@string/upload" />
+
+            <TextView
+                android:id="@+id/tv_total_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_base_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/btn_normalchose_gray"
+            android:padding="15dp"
+            android:text="@string/base_image"
+            android:textColor="#7cbd7b"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

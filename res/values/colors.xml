@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="item_divider">#fafafa</color>
+    <color name="item_common_pressed">#e0e0e0</color>
+    <color name="item_common_selected">#5e5e5e</color>
+    <color name="background_common">#fafafa</color>
+    <color name="background_menu_divider">#d0d0d0</color>
+    <color name="background_menu">#e0e0e0</color>
+    <color name="font_default">#222222</color>
+    <color name="font_light">#777777</color>
+    <color name="white">#ffffff</color>
+    <color name="white_light">#888888</color> <!-- 淡白色 -->
+    <color name="darkorange">#20c36e</color>
+    <color name="black">#000000</color>
+    <color name="gray">#FFDBDBDB</color>
+    <color name="red">#FF0000</color>
+    <color name="darkgray">#50808080</color>
+    <color name="blue">#20c36e</color>
+    <color name="green">#008000</color> <!-- 绿色 -->
+    <color name="green1">#8dce3f</color> <!-- 绿色 -->
+    <color name="orange">#eb923e</color>
+    <color name="lightblue">#36c77b</color>
+    <color name="transparent_gray">#8000</color>
+    <color name="transparent">#00000000</color>
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#36c77b</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#36c77b</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#36c77b</color>
+    <color name="today">#ffff3e45</color>
+    <color name="lightgrey">#D3D3D3</color> <!-- 亮灰色 -->
+    <color name="dimgray">#696969</color> <!-- 暗灰色 -->
+    <color name="dimgrey">#696969</color> <!-- 暗灰色 -->
+
+    <color name="calendar_event">#999999</color>
+    <color name="dialogColor">#f0ffffff</color>
+    <color name="dialog_gray">#e6e6e6</color>
+    <color name="black1">#333333</color>
+    <color name="black2">#666666</color>
+    <color name="indexcshape0">#fe8a7f</color>
+    <color name="indexcshape1">#b9a571</color>
+    <color name="indexcshape2">#71b9a5</color>
+    <color name="indexcshape3">#719bb8</color>
+    <color name="indexcshape4">#a15679</color>
+    <color name="top_title_green">#8DCE3F</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <color name="focus_circle_bg">#F24949</color>
+    <color name="date_1">#F24949</color>
+    <color name="date_2">#40000000</color>
+    <color name="Grey">#BEBEBE</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="gray1">#eaeaea</color> <!-- 灰色 -->
+
+</resources>

@@ -1,0 +1,13 @@
+package com.art.app.interfaces;
+
+import com.art.app.bean.CustomDate;
+
+
+/**
+ * 返回日期到课程管家
+ * @author liulongling
+ *
+ */
+public interface CalendarDateInter {
+	void curDate(CustomDate mClickDate);
+}
